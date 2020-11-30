@@ -1,0 +1,26 @@
+body{
+    color: white;
+}
+h1{
+    color: orange;
+    font-family: "Segoe UI";
+    }
+    .kotak{
+    padding: 40px; /*memberi jarak dalam pada kotak*/
+    width: 100px; /*membuat lebar kotak 100px*/
+    height: 50px; /*membuat tinggi kotak 100px*/
+    float: left;
+    margin: 10px;
+    }
+    .biru{
+        background-color: skyblue;
+    }
+    .ungu{
+        background-color: rgb(194, 119, 194);
+    }
+    .pink{
+        background-color: pink;
+    }
+    .oren{
+        background-color: orange;
+    }

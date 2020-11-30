@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Silahkan isi form</h1>
+    <form action="proses.php" method="post">
+        <label>NAMA:    </label>
+        <input type="text" name="nama" placeholder="Masukkan Nama Anda">
+        <br>
+        <label>PASSWORD:    </label>
+        <input type="password" name="password" placeholder="Masukkan Password Anda">  
+        <br>
+        <label>JENIS KELAMIN:   </label>
+        <input type="radio" name="jen_kel" value="L">Laki-laki
+        <input type="radio" name="jen_kel" value="P">Perempuan
+        <br>
+        <label>HOBI:    <label>
+        <input type="checkbox" name="hobi1">Gowes
+        <input type="checkbox" name="hobi2">Memancing
+        <input type="checkbox" name="hobi3">Mengoding
+        <br>
+        <label>TEMPAT LAHIR:    </label>
+        <SELECT name="tmptl">
+            <option></option>
+            <option value="bjm">Banjarmasin</option>
+            <option value="bjb">Banjarbaru</option>
+            <option value="mtp">Martapura</option>
+            <option value="btl">Batola</option>
+        </SELECT>
+        <br>
+        <label>TANGGAL LAHIR:   </label>
+        <input type="date" name="tgll">
+        <br>
+        <label>KETERANGAN:  </label>
+        <TEXTarea name="keterangan" cols="30" rows="10"></TEXTarea>
+        <br>
+        <input type="submit" value="kirim data">
+    </form>
+</body>
+</html>
